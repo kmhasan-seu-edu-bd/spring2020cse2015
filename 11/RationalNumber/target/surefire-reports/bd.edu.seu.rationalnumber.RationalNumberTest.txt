@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: bd.edu.seu.rationalnumber.RationalNumberTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE!
+bd.edu.seu.rationalnumber.RationalNumberTest.testAdd1()  Time elapsed: 0.003 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <4> but was: <12>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:152)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:147)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:327)
+	at bd.edu.seu.rationalnumber.RationalNumberTest.testAdd1(RationalNumberTest.java:26)
+
+bd.edu.seu.rationalnumber.RationalNumberTest.testAdd2()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1> but was: <9>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:152)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:147)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:327)
+	at bd.edu.seu.rationalnumber.RationalNumberTest.testAdd2(RationalNumberTest.java:35)
+
