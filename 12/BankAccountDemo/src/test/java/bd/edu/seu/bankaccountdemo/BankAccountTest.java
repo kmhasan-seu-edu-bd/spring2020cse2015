@@ -33,7 +33,24 @@ public class BankAccountTest {
     }
 
     @Test
+    public void testWithdrawOverdraftAmount() {
+        BankAccount bankAccount = new BankAccount(1234, "John Doe", 1000);
+        bankAccount.withdraw(1200);
+        Assertions.assertEquals(1000, bankAccount.getBalance());
+    }
+
+    @Test
     public void testDeposit() {
+        BankAccount bankAccount = new BankAccount(1234, "John Doe", 1000);
+        bankAccount.deposit(200);
+        Assertions.assertEquals(1200, bankAccount.getBalance());
+    }
+
+    @Test
+    public void testDepositNegativeAmount() {
+        BankAccount bankAccount = new BankAccount(1234, "John Doe", 1000);
+        bankAccount.deposit(-200);
+        Assertions.assertEquals(1000, bankAccount.getBalance());
     }
 
     @Test

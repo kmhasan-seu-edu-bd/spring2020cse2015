@@ -12,7 +12,7 @@ package bd.edu.seu.bankaccount;
 public class BankAccount {
     private long number;
     private String name;
-    private double balance;
+    protected double balance;
     
     public BankAccount(long number, String name, double balance) {
         this.number = number;
@@ -26,7 +26,7 @@ public class BankAccount {
     }
     
     public void withdraw(double amount) {
-        if (amount >= 0)
+        if (amount >= 0 && amount <= balance)
             balance = balance - amount;
     }
     

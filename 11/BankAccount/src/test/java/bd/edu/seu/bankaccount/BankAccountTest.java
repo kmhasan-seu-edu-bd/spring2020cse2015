@@ -40,6 +40,13 @@ public class BankAccountTest {
     }
 
     @Test
+    public void testWithdrawOverDraft() {
+        BankAccount bankAccount = new BankAccount(123, "John Doe", 1000);
+        bankAccount.withdraw(2000);
+        Assertions.assertEquals(1000, bankAccount.getBalance());
+    }
+
+    @Test
     public void testWithdrawNegativeAmount() {
         BankAccount bankAccount = new BankAccount(123, "John Doe", 1000);
         bankAccount.withdraw(-100);
