@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bd.edu.seu.PrimaryController">
+   <children>
+      <TextField />
+      <Label text="CSE2015" />
+      <Button fx:id="primaryButton" onAction="#switchToSecondary" text="Go to Lab Course" textFill="#cd1a1a">
+         <font>
+            <Font name="DejaVu Sans Condensed Bold" size="13.0" />
+         </font></Button>
+      <Button mnemonicParsing="false" text="Say Hello" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
