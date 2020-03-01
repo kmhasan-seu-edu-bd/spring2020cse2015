@@ -23,6 +23,12 @@
          <children>
             <Button mnemonicParsing="false" onAction="#handleOneAction" text="1" />
             <Button mnemonicParsing="false" onAction="#handleTwoAction" text="2" GridPane.columnIndex="1" />
+            <Button layoutX="110.0" layoutY="12.0" mnemonicParsing="false" onAction="#handleThreeAction" text="3" GridPane.columnIndex="2" />
+            <Button layoutX="10.0" layoutY="12.0" mnemonicParsing="false" onAction="#handleFourAction" text="4" GridPane.rowIndex="1" />
+            <Button layoutX="110.0" layoutY="12.0" mnemonicParsing="false" onAction="#handleFiveAction" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button layoutX="110.0" layoutY="42.0" mnemonicParsing="false" onAction="#handleEqualAction" text="=" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button layoutX="210.0" layoutY="102.0" mnemonicParsing="false" onAction="#handleAddAction" text="+" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Button layoutX="310.0" layoutY="102.0" mnemonicParsing="false" onAction="#handleSubtractAction" text="-" GridPane.columnIndex="3" GridPane.rowIndex="2" />
          </children>
       </GridPane>
    </children>
