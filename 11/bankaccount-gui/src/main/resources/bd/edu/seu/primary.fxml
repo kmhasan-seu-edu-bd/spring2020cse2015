@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="260.0" prefWidth="368.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bd.edu.seu.PrimaryController">
+   <children>
+      <TableView fx:id="accountTableView" layoutX="30.0" layoutY="30.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+        <columns>
+          <TableColumn fx:id="numberColumn" prefWidth="75.0" text="Number" />
+          <TableColumn fx:id="nameColumn" prefWidth="157.0" text="Name" />
+            <TableColumn fx:id="balanceColumn" prefWidth="115.0" text="Balance" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

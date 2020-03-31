@@ -1,0 +1,5 @@
+CSE2015,Programming Language II (Java)
+CSE2016,Programming Language II (Java) Lab
+MATH1024,Coordinate Geometry
+ENG101,Basic English
+PHY1021,Physics I
