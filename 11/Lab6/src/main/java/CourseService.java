@@ -9,7 +9,7 @@ public class CourseService {
         List<Course> courseList = new ArrayList<>();
 
         try {
-            RandomAccessFile inputFile = new RandomAccessFile("courses.txt", "r");
+            RandomAccessFile inputFile = new RandomAccessFile(filename, "r");
             String line;
 
             while ((line = inputFile.readLine()) != null) {

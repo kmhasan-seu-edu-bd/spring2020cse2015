@@ -1,0 +1,7 @@
+54,John Doe,Banani,50.0
+14,Jane Doe,Uttara,5.0
+18,Abdullah Bin Faruq,Baridhara,500.0
+10,Ferdowsi Marufa,Nikunja,50000.0
+34,Shahriar Manzoor,Dhanmondi,3.0E8
+54,Test Entry,Banani,554.0
+10,Asdasdf,asfasdg,345.0

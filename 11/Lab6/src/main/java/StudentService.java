@@ -9,7 +9,7 @@ public class StudentService {
         List<Student> studentList = new ArrayList<>();
 
         try {
-            RandomAccessFile inputFile = new RandomAccessFile("students.txt", "r");
+            RandomAccessFile inputFile = new RandomAccessFile(filename, "r");
             String line;
 
             while ((line = inputFile.readLine()) != null) {
