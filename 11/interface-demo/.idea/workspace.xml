@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c5562399-6fa3-4d71-a871-fe4abc3e11fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfacedemo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfacedemo/bankaccount/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfacedemo/bankaccount/BankAccountOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfacedemo/bankaccount/CurrentAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfacedemo/bankaccount/SavingsAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfacedemo/student/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interfacedemo/bankaccount/BankAccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interfacedemo/student/StudentTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1cIXcMWNaQjb7tu2OGNUZcmzIAf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="JUnit.StudentTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfacedemo.Main" />
+      <module name="interface-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfacedemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankAccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interface-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfacedemo.bankaccount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="interfacedemo.bankaccount" />
+      <option name="MAIN_CLASS_NAME" value="interfacedemo.bankaccount.BankAccountTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interface-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfacedemo.student.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="interfacedemo.student" />
+      <option name="MAIN_CLASS_NAME" value="interfacedemo.student.StudentTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StudentTest" />
+        <item itemvalue="JUnit.BankAccountTest" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c5562399-6fa3-4d71-a871-fe4abc3e11fa" name="Default Changelist" comment="" />
+      <created>1590217159610</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590217159610</updated>
+      <workItem from="1590217163169" duration="3750000" />
+      <workItem from="1590225266550" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="491" y="79" width="558" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1590219689906">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="491" y="79" width="558" height="569" key="#com.intellij.ide.util.MemberChooser/0.0.1366.720@0.0.1366.720" timestamp="1590219689906" />
+    <state width="1366" height="173" key="GridCell.Tab.0.bottom" timestamp="1590225039264">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1366" height="173" key="GridCell.Tab.0.bottom/0.0.1366.720@0.0.1366.720" timestamp="1590225039264" />
+    <state width="1366" height="173" key="GridCell.Tab.0.center" timestamp="1590225039262">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1366" height="173" key="GridCell.Tab.0.center/0.0.1366.720@0.0.1366.720" timestamp="1590225039262" />
+    <state width="1366" height="173" key="GridCell.Tab.0.left" timestamp="1590225039261">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1366" height="173" key="GridCell.Tab.0.left/0.0.1366.720@0.0.1366.720" timestamp="1590225039261" />
+    <state width="1366" height="173" key="GridCell.Tab.0.right" timestamp="1590225039263">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1366" height="173" key="GridCell.Tab.0.right/0.0.1366.720@0.0.1366.720" timestamp="1590225039263" />
+    <state x="172" y="0" width="1024" height="720" key="SettingsEditor" timestamp="1590218351396">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="172" y="0" width="1024" height="720" key="SettingsEditor/0.0.1366.720@0.0.1366.720" timestamp="1590218351396" />
+  </component>
+</project>
